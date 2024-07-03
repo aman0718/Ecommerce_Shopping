@@ -1,0 +1,45 @@
+/* Custom Styles for Ecommerce Homepage */
+
+/* Header Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+/* Featured Product Section Styles */
+#featured {
+    background-color: #f8f9fa;
+}
+
+#featured h2 {
+    color: #333;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.card-sh{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cat-div{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

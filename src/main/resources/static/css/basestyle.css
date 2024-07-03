@@ -1,0 +1,137 @@
+/* style.css */
+
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 70px; /* For fixed navbar spacing */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0ad4e !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #494747;
+}
+
+.navbar-nav .dropdown-item {
+    color: #fff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #f0ad4e;
+}
+
+/* Search button */
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-outline-success {
+    border-color: #f0ad4e;
+    color: #f0ad4e;
+    border-radius: 20px;
+}
+
+.btn-outline-success:hover {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+/* Footer styles */
+/* #footer {
+    background-color: #494747;
+} */
+
+footer {
+    margin-top: auto;
+    color: #fff;
+    text-align: center;
+}
+
+/* Custom button styles */
+.btn-custom {
+    background-color: #f0ad4e;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #ec971f;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Form styles */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    border-color: #f0ad4e;
+    box-shadow: none;
+}
+
+/* Product page styles */
+.product-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #f0ad4e;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
